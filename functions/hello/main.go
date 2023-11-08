@@ -17,7 +17,7 @@ type MyData struct {
 func handler(ctx context.Context, request events.APIGatewayProxyRequest) (*events.APIGatewayProxyResponse, error) {
 	res := &events.APIGatewayProxyResponse{
 		StatusCode: 200,
-		Body:       "",
+		Body:       "ttt",
 	}
 	switch request.HTTPMethod {
 	case "POST":
